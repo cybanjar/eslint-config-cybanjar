@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-cybanjar",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "author": "Syamsul Amin",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint -c ./index.js ./*.js",
+    "fix": "eslint -c ./index.js ./*.js --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "eslint": "^8.41.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-formatter-pretty": "^5.0.0",
+    "eslint-plugin-align-assignments": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-varspacing": "^1.2.2",
+    "eslint-plugin-vue": "^9.13.0",
+    "typescript": "^5.0.4"
+  }
+}
